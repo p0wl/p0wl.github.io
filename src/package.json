@@ -1,0 +1,14 @@
+{
+  "name": "p0wl.github.io",
+  "version": "1.0.0",
+  "main": "index.js",
+  "repository": "github.com/p0wl/p0wl.github.io",
+  "author": "Paul Mölders <paulmoelders@gmail.com>",
+  "license": "MIT",
+  "devDependencies": {
+    "cssnano-cli": "^1.0.5"
+  },
+  "scripts": {
+    "minify": "cssnano css/main.css ../css/main.min.css"
+  }
+}
