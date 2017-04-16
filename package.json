@@ -9,6 +9,6 @@
     "cssnano-cli": "^1.0.5"
   },
   "scripts": {
-    "minify": "cssnano css/main.css ../css/main.min.css"
+    "build": "cssnano src/css/main.css public/css/main.min.css && cssnano src/css/normalize.css public/css/normalize.min.css"
   }
 }
